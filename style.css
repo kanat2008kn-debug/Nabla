@@ -10,7 +10,12 @@
   }
 
 .logo {
-    margin: 25px 50px 26px 312px;
+    font-size: 35px;
+    margin: auto 50px auto 312px;
+    font-family: sans-serif;
+    font-weight: bold;
+    -webkit-text-fill-color: #040062;
+    -webkit-text-stroke: 1.5px #C7E3E9;
 }
 
 .square, .header-nav {
@@ -28,27 +33,21 @@ a {
 }
 
 .elements {
-    padding: 25px auto 25px 50px;
-    font-size: 16px;
+    font-size: 19px;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: sans-serif;
     color: #040062;
-    font-weight: 100;
+    -webkit-text-stroke: 0.5px #C7E3E9;
+    font-weight: 200;
     font-size: 16px;
-    margin: 25px 50px 25px;
-}
-
-.nav-button {
-    margin:   40px;
-    color: #040062;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+    margin: auto 0px 25px;
+    
 }
 
 button {
-    margin: 18px auto 18px 312px;
-    padding: 10px 20px;
-    background-color: #040062;
+    margin : 18px auto 18px 312px;
+    padding: 10px 30px;
+    background-color: #0013FF;
     color: white;
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
