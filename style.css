@@ -1,11 +1,7 @@
-#main {
-    color: #040062;
-    font-size: 50px;
-    font-family: 'ubuntu', sans-serif;
-}
-
-header, ul {
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .square {
@@ -13,29 +9,33 @@ header, ul {
     height: 74px;
   }
 
-pre {
-    padding: 25px 50px 26px 312px;
+.logo {
+    margin: 25px 50px 26px 312px;
 }
 
-nav {
+.square, .header-nav {
+    display: flex;
     gap: 20px;
-    margin: 0px;
-    padding: 25px;
-    
+}
+
+.header-nav {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    height: 18px;
 }
 
 .elements {
     padding: 25px auto 25px 50px;
     font-size: 16px;
     text-decoration: none;
-    color: #040062;
     font-family: 'Ubuntu', sans-serif;
+    color: #040062;
     font-weight: 100;
     font-size: 16px;
-}
-
-.header-nav {
-    list-style: none;
+    margin: 25px 50px 25px;
 }
 
 .nav-button {
@@ -46,7 +46,7 @@ nav {
 }
 
 button {
-    margin: 18px 312px 18px auto;
+    margin: 18px auto 18px 312px;
     padding: 10px 20px;
     background-color: #040062;
     color: white;
