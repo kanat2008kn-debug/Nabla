@@ -19,7 +19,7 @@
     margin: auto 50px auto 312px;
     font-family: sans-serif;
     font-weight: bold;
-    -webkit-text-fill-color: #040062;
+    color: #040062;
    
 }
 
@@ -29,7 +29,6 @@
 
 a {
     text-decoration: none;
-    height: 18px;
 }
 
 .elements {
@@ -41,11 +40,12 @@ a {
     font-size: 16px;
     font-weight: bold;
     margin: auto 0px 25px;
+    
 }
 
 #button {
     margin : 18px auto 18px 312px;
-    padding: 0px 10px;
+    padding: 10px 10px;
     background-color: #0013FF;
     color: white;
     font-family: 'Ubuntu', sans-serif;
@@ -53,4 +53,5 @@ a {
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    justify-items: end;
 }
