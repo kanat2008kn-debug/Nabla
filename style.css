@@ -18,6 +18,12 @@ body {
   font-style: normal;
 }
 
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
 /*---------------Header ------------*/
 .header {
     display: flex;
@@ -74,7 +80,7 @@ a {
 /*---blok2---*/
 .container {
     display: flex;
-    justify-content: center;
+    justify-content: center; /*вертикально*/
     flex-direction: column;
     height: 648px;
     max-width: 1296px;
@@ -103,24 +109,42 @@ a {
 .blok2__text-container {
     display: flex;
     flex-direction: column;
-    max-width: 648px;
+    /*align-items: center; горизонтально*/
+    /*justify-content: center; вертикально*/
+    text-align: left;
+    width: 648px;
 }
 
-.blok2__subtitle {
+.blok2__title {
     font-family: 'Abril Fatface', serif;
     font-weight: 500;
     font-size: 48px;
-    line-height: 60px;
     color: #040062;
-    margin-bottom: 32px;
+
     padding-left: 100;
+    width: 449px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 32px;
 }
 
-p {
-    font-family: 'Abril Fatface', serif;
+.blok2__subtitle {
+    font-family: 'Abril Fatface', ;
     color: #6D758D;
+    font-size: 18px;
+    font-weight: 100;
+    line-height:150%;
+    letter-spacing: 0,9px;
 
+    display: block;
+    width: 488px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*---blok2 end---*/
+
+
+/*---blok3---*/
 
 /*---------------body end------------*/
