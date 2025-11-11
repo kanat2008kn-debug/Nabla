@@ -27,26 +27,25 @@ body {
 /*---------------Header ------------*/
 .header {
     display: flex;
-    justify-content: left;
-    max-width: 1296px;
+    justify-content: space-between;
+    width: 1296px;
     height: 74px;
 }
 
 .header__logo {
     font-size: 35px;
-    margin: auto 2rem;
+    margin: auto 50px auto 0;
     font-family: sans-serif;
     font-weight: bold;
     color: #040062;
 }
 
 .header__nav {
-    font-size: 16px;
     text-decoration: none;
     font-family: sans-serif;
-    font-weight: 200;
     font-weight: bold;
-    margin: auto 0px 25px;   
+    margin: auto 0;   
+    flex-grow: 1;
 }
 
 .header__menu {
@@ -61,7 +60,7 @@ a {
 }
 
 #button {
-    margin : 18px auto 18px 312px;
+    margin : auto 0;
     padding: 10px 10px;
     background-color: #0013FF;
     color: white;
