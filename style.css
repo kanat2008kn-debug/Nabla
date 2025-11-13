@@ -28,7 +28,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    width: 1296px;
+    max-width: 1296px;
+    width: 100%;
     height: 74px;
 }
 
@@ -76,45 +77,46 @@ a {
 
 /*---------------body------------*/
 
-/*---blok2---*/
 .container {
     display: flex;
     justify-content: center; /*вертикально*/
     flex-direction: column;
     height: 648px;
     max-width: 1296px;
+    width: 100%;
 }
 
-.blok2 {
+.blok {
     display: flex;
     max-width: 1296px;
     height: 648px;
     
 }
 
-.blok2-square {
-    width: 648px;
-    background-color: #FEF1EF;
+.blok__square {
+    width: 50%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.blok2-image {
+.blok__image {
     width: 234px;
     height: 508px;
+    border-radius: 37px; /*закругления углов*/
 }
 
-.blok2__text-container {
+.blok__text-container {
     display: flex;
     flex-direction: column;
     /*align-items: center; горизонтально*/
     /*justify-content: center; вертикально*/
     text-align: left;
-    width: 648px;
+    width: 50%;
 }
 
-.blok2__title {
+.blok__title {
     font-family: 'Abril Fatface', serif;
     font-weight: 500;
     font-size: 48px;
@@ -128,22 +130,25 @@ a {
     margin-bottom: 32px;
 }
 
-.blok2__subtitle {
+.blok__subtitle {
     font-family: 'Abril Fatface', ;
     color: #6D758D;
     font-size: 18px;
     font-weight: 100;
     line-height:150%;
     letter-spacing: 0,9px;
-
     display: block;
     width: 488px;
     margin-left: auto;
     margin-right: auto;
 }
-/*---blok2 end---*/
 
+#pink {
+    background-color: #FEF1EF;
+}
 
-/*---blok3---*/
+#blue {
+    background-color: #C7E3E9;
+}
 
 /*---------------body end------------*/
