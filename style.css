@@ -131,7 +131,7 @@ a {
 }
 
 .blok__subtitle {
-    font-family: 'Abril Fatface', ;
+    font-family: 'Abril Fatface'.;
     color: #6D758D;
     font-size: 18px;
     font-weight: 100;
@@ -143,12 +143,12 @@ a {
     margin-right: auto;
 }
 
-#pink {
-    background-color: #FEF1EF;
+.blok__square--blue {
+    background-color: #C7E3E9;
 }
 
-#blue {
-    background-color: #C7E3E9;
+.blok__square--pink {
+    background-color: #FEF1EF;
 }
 
 /*---------------body end------------*/
