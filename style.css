@@ -147,18 +147,18 @@ a {
     font-size: 18px;
     font-weight: 100;
     line-height:150%;
-    letter-spacing: 0,9px;
+    letter-spacing: 0.9px;
     display: block;
     width: 488px;
     margin-left: auto;
     margin-right: auto;
 }
 
-#pink {
+.pink {
     background-color: #FEF1EF;
 }
 
-#blue {
+.blue {
     background-color: #C7E3E9;
 }
 
@@ -176,6 +176,17 @@ a {
     padding-top: 80px;
 }
 
+.footer__blok__section {
+    display: flex;
+    justify-content: left;
+    max-width: 600px;
+    width: 100%;
+}
+
+.footer__section {
+    width: 200%
+}
+
 .footer__logo {
     border-color: #0013FF;
     font-size: 30px;
@@ -184,14 +195,7 @@ a {
     color: #040062;
 }
 
-.footer__section__blok {
-    display: flex;
-    justify-content: left;
-    width: 504px;
-    
-}
-
-.footer__linc {
+.footer__link {
     display: flex;
     flex-direction: column;
 }
@@ -201,7 +205,7 @@ a {
     color: #040062;
 }
 
-.footer__linc a {
+.footer__link a {
     font-size: 16px;
     color: #6D758D;
     margin-top: 14px;
