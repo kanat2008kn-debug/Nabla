@@ -52,7 +52,7 @@ body {
 .header__menu {
     display: flex;
     gap: 20px;
-    list-style: none;
+    list-style: none;    
 }
 
 a {
@@ -61,7 +61,7 @@ a {
 }
 
 #button {
-    margin : auto 0;
+    margin : auto 18px;
     padding: 10px 10px;
     background-color: #0013FF;
     color: white;
@@ -72,10 +72,21 @@ a {
     cursor: pointer;
     justify-items: end;
 }
-/*---------------Header end------------*/
+
+@media screen and (max-width: 700px) {
+        .header {
+        width: calc(100% - 30px * 2);
+        flex-direction: column;
+        gap: 20px;
+        position: static;
+       
+    }
+}
+    
+/* Header end */
 
 
-/*---------------body------------*/
+/* body */
 
 .container {
     display: flex;
@@ -151,4 +162,47 @@ a {
     background-color: #C7E3E9;
 }
 
-/*---------------body end------------*/
+/* body end */
+
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1296px;
+    width: 100%;
+    height: 290px;
+    padding-top: 80px;
+}
+
+.footer__logo {
+    border-color: #0013FF;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #040062;
+}
+
+.footer__section__blok {
+    display: flex;
+    justify-content: left;
+    width: 504px;
+    
+}
+
+.footer__linc {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__section--name {
+    font-size: 22px;
+    color: #040062;
+}
+
+.footer__linc a {
+    font-size: 16px;
+    color: #6D758D;
+    margin-top: 14px;
+}
