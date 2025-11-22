@@ -12,18 +12,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.abril-fatface-regular {
-  font-family: "Abril Fatface", serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
 /*---------------Header ------------*/
 .header {
     display: flex;
@@ -132,8 +120,7 @@ a {
     font-weight: 500;
     font-size: 48px;
     color: #040062;
-
-    padding-left: 100;
+    padding-left: 100px;
     width: 449px;
     display: block;
     margin-left: auto;
@@ -142,7 +129,7 @@ a {
 }
 
 .blok__subtitle {
-    font-family: 'Abril Fatface', ;
+    font-family: 'Abril Fatface';
     color: #6D758D;
     font-size: 18px;
     font-weight: 100;
@@ -154,11 +141,11 @@ a {
     margin-right: auto;
 }
 
-.pink {
+.blok__square--pink {
     background-color: #FEF1EF;
 }
 
-.blue {
+.blok__square--blue {
     background-color: #C7E3E9;
 }
 
